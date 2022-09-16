@@ -110,7 +110,7 @@ const io = require('socket.io')(server);
 app.set("socketio", io);    // <== this line
 global.testIo = io;
 
-server.listen(8000, '10.113.99.3', function () {
+server.listen(8000, 'localhost', function () {
     console.log('Server Start Running');
 });
 
